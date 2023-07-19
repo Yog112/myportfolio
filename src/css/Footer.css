@@ -1,0 +1,19 @@
+#footer {
+    background: #262626;
+    opacity: none;
+    height: auto;
+}
+.credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-block: 1rem;
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+}
+.credit span {
+    color: orange;
+    margin-inline: 0 1rem;
+}

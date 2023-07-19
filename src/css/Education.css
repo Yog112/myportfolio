@@ -1,0 +1,29 @@
+.timeline-box {
+    padding: 5px;
+    width: 40%;
+    min-height: 150px;
+    position: relative;
+    left: 5%;
+    text-align: left;
+    border: none;
+}
+.heading-color {
+    color: orange;
+}
+.duration {
+    color: grey;
+}
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+.timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+.timeline-traveller i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: #2857a4;
+}

@@ -1,0 +1,150 @@
+#contact {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    color: white;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+#contact h1,
+#contact h1 span {
+    color: rgb(255, 255, 255);
+    
+}
+
+.mb50px {
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width:1200px){
+    
+#contact-container {
+    display: flex;
+}
+}
+
+#contact-form-container {
+    margin-left: 30px;
+    width: 50%;
+}
+
+#contact-form-container h3 {
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 15px;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#my-details-container {
+    width: 42%;
+    margin-left:75px; 
+    
+}
+
+#my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+    margin-left: 0px;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+
+.fa-regular,
+.far {
+    font-weight: 400;
+}
+
+#my-details-container h4 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.horizontal-list-social {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list-social li {
+    display: inline-block;
+    margin: 0px 8px 0px 10px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.horizontal-list-social li a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer {
+    background: #262626;
+    opacity: none;
+    height: auto;
+}
+
+.credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-block: 1rem;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #fff;
+}
+
+.credit span {
+    color: orange;
+    margin-inline: 0 1rem;
+}
